@@ -1,0 +1,4 @@
+Application utilisant le framework CodeIgniter
+À exécuter à la racine (ex : http://localhost/)
+Renseigner le fichier application/config/database.php avant de lancer l'application
+Mot de passe par défaut : admin

@@ -1,0 +1,71 @@
+	/* STYLE D'OBJET CSS/xHTML */
+
+
+	/* BORDURE */
+
+.rien {border: none;}                      /* RIEN */
+.solid {border: 2px solid black;}          /* COMPLETE */
+.dotted {border: 1px dotted #C0C0C0;}      /* POINTILLER (point) */
+.dashed {border: 1px dashed #7E8080;}      /* POINTILLER (trait) */
+.double {border: 4px double maroon;}       /* DEUX LIGNE A COTE AVEC ESPACE BLANC AU MILIEU */
+.groove {border: 4px groove teal;}         /* DEUX BORDURE DONT UNE PLUS FONCE QUE LAUTRE */
+.ridge {border: 4px ridge fuchsia;}        /* EFFET 3D */
+.inset {border: 3px inset black;}          /* BLOC CREUX */
+.outset {border: 3px outset black;}        /* INVERSE - BLOC BOSSE */
+
+
+	/* STYLE SIMPLE */
+
+.italic {font-style: italic;} 
+.gras {font-weight: bold;} 
+.souligne {text-decoration: underline;} 
+.barre {text-decoration: line-through;} 
+.clignote {text-decoration: blink;} 
+
+.centre {text-align: center; margin:auto;}
+.gauche {text-align: left;}
+.droite {text-align: right;}
+.justifie {text-align: justify;}
+
+	/* COULEUR */
+
+.orange {color: rgb(236, 118, 0);}
+.noir {color: black;}
+.marron {color: maroon;}
+.vert {color: green;}
+.olive {color: olive;}
+.marine {color: navy;}
+.violet {color: purple;}
+.bleugris {color: teal;}
+.argent {color: silver;}
+.gris {color: rgb(100, 100, 100);}
+.rouge {color: red;}
+.vertc {color: lime;}
+.jaune {color: yellow;}
+.bleu {color: blue;}
+.rose {color: fuchsia;}
+.turquoise {color: aqua;}
+.blanc {color: white;}
+
+	/* POLICE - ECRITURE */
+
+.arial {font-family: Arial, serif;}
+.times {font-family: Times, Arial, serif;}
+.courrier {font-family: Courier, Arial, serif;}
+.impact {font-family: Impact, Arial, serif;}
+.geneva {font-family: Geneva, Arial, serif;}
+.optima {font-family: Optima, Arial, serif;}
+.comic {font-family: Comic sans MS, Arial, serif;}
+
+	/* POLICE - TAILLE */
+
+.ttpetit {font-size: xx-small;}
+.tpetit {font-size: x-small;}
+.petit {font-size: small;}
+.gros {font-size: large;}
+.tgros {font-size: x-large;}
+.ttgros {font-size: xx-large;}
+
+.float_gauche {float:left; margin:5px; border:solid 1px black;}
+.float_droit {float:right; margin:5px; border:solid 1px black;}
+.float_centre {margin:auto; border:solid 1px black;}

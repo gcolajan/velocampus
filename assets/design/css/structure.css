@@ -1,0 +1,49 @@
+body {
+	font-family:Tahoma, Verdana, Arial, Sans;
+	margin:0;
+	padding:0;
+}
+
+#conteneur {
+	min-width:500px;
+	max-width:1000px;
+	margin:auto;
+}
+
+
+#conteneur_entete {
+	border-bottom:1px solid silver;
+	height:150px;
+	background:url('../images/entete.jpg');
+	color:white;
+}
+
+#conteneur {}
+
+#menu {
+	height:30px;
+	background:rgba(255,255,255,0.7);
+	font-weight:bold;
+}
+
+div#menu ul {margin:0; padding:0; list-style-type:none;}
+div#menu ul li, div#menu ul li ul li {line-height:30px; margin:0; padding:0; text-align:center;}
+
+div#menu ul:last-child {margin-left:20%;}
+div#menu ul:last-child li {float:left; width:25%;}
+
+div#menu ul:first-child {width:20%; float:left;}
+div#menu ul:first-child li {width:50%; float:left;}
+
+div#menu ul:first-child li ul {display:none; position:absolute; margin:0; margin-top:-4px; border-top:0; border-left:1px solid silver; border-right:1px solid silver;}
+div#menu ul:first-child li ul li {display:block; text-align:left; background:white; line-height:25px; border-bottom:1px solid silver; padding:0px 10px; width:auto; float:none; font-weight:normal;}
+
+#contenu {}
+
+#pied_de_page {
+	margin-top:50px;
+	text-align:center;
+	font-size:80%;
+	border-top:1px solid silver;
+	background:white;
+}
